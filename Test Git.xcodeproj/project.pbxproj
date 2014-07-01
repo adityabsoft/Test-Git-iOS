@@ -21,6 +21,7 @@
 		EB8E9F2019627828003C3320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8E9F0219627828003C3320 /* UIKit.framework */; };
 		EB8E9F2819627828003C3320 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8E9F2619627828003C3320 /* InfoPlist.strings */; };
 		EB8E9F2A19627828003C3320 /* Test_GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9F2919627828003C3320 /* Test_GitTests.m */; };
+		EB8E9F3519627FD7003C3320 /* BSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9F3419627FD7003C3320 /* BSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EB8E9F2519627828003C3320 /* Test GitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test GitTests-Info.plist"; sourceTree = "<group>"; };
 		EB8E9F2719627828003C3320 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB8E9F2919627828003C3320 /* Test_GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GitTests.m; sourceTree = "<group>"; };
+		EB8E9F3319627FD7003C3320 /* BSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTest.h; sourceTree = "<group>"; };
+		EB8E9F3419627FD7003C3320 /* BSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		EB8E9EF219627828003C3320 = {
 			isa = PBXGroup;
 			children = (
+				EB8E9F3319627FD7003C3320 /* BSTest.h */,
+				EB8E9F3419627FD7003C3320 /* BSTest.m */,
 				EB8E9F0419627828003C3320 /* Test Git */,
 				EB8E9F2319627828003C3320 /* Test GitTests */,
 				EB8E9EFD19627828003C3320 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8E9F3519627FD7003C3320 /* BSTest.m in Sources */,
 				EB8E9F1519627828003C3320 /* BSViewController.m in Sources */,
 				EB8E9F0B19627828003C3320 /* main.m in Sources */,
 				EB8E9F0F19627828003C3320 /* BSAppDelegate.m in Sources */,
